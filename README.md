@@ -1,2 +1,3 @@
 # personalized-learning-assistant
 it is a Personalized Learning Assistant An AI system that analyses student performance and recommends personalized learning materials, pacing, and topics to focus on.
+The Personalized Learning Assistant is a web-based AI tool built using HTML, CSS, and JavaScript that analyzes student performance and provides customized learning recommendations. It helps students identify their strengths and weaknesses, suggests suitable study materials, and adjusts the learning pace based on individual progress. The project features an interactive and responsive design, offering a smarter and more engaging learning experience.
