@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personalized Learning Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Personalized Learning Assistant</h1>
+
+    <form id="student-form">
+      <label for="name">Student Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="subject">Subject:</label>
+      <select id="subject" required>
+        <option value="math">Math</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+      </select>
+
+      <label for="score">Recent Score (0 - 100):</label>
+      <input type="number" id="score" min="0" max="100" required />
+
+      <button type="submit">Analyze Performance</button>
+    </form>
+
+    <div id="recommendation" class="hidden">
+      <h2>📊 Recommendations for <span id="student-name"></span></h2>
+      <p><strong>Focus Areas:</strong> <span id="focus-topics"></span></p>
+      <p><strong>Pacing Suggestion:</strong> <span id="pacing"></span></p>
+      <p><strong>Recommended Materials:</strong></p>
+      <ul id="materials-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
